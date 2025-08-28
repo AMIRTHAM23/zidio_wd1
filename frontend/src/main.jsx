@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import router from "./router";   // ✅ make sure this file exists
+import router from "./router";   
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

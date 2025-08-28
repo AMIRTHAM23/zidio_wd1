@@ -66,7 +66,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // CORS
-const allowedOrigins = ["http://localhost:3000", "http://localhost:5173"];
+const allowedOrigins = ["http://localhost:3000","https://zidiowd1.netlify.app", "http://localhost:5173"];
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 
 // Body parsers
